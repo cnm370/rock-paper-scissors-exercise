@@ -2,7 +2,6 @@
 import random
 
 
-
 print("WELCOME TO ROCK PAPER SCISSORS GAME")
 
 
@@ -30,10 +29,6 @@ valid_options = ["rock", "paper", "scissors"]
 if user_choice not in valid_options:
     print("OOPS INVALID TRY AGAIN")
     exit()  # quit()
-
-
-
-
 
 
 # COMPUTER  CHOICE
@@ -70,5 +65,7 @@ elif user_choice == "scissors":
         print("Rock crushes scissors. You lose.")
 
 # DISPLAY RESULTS
+print("---------------------------------")
+print("Thanks for playing the game. Please play again!")
 #
 #--------------------------------
