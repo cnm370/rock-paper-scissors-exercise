@@ -1,9 +1,8 @@
 
 import random
-
+# IMPORT RANDOM
 
 print("WELCOME TO ROCK PAPER SCISSORS GAME")
-
 
 # USER INPUTS
 
@@ -33,17 +32,13 @@ if user_choice not in valid_options:
 
 # COMPUTER  CHOICE
 
-
-# IMPORT RANDOM
-
-
 computer_choice = random.choice(valid_options)
 print("Computer chose:", computer_choice)
 
 
 # DETERMINE THE WINNER
 
-# adapted from code shared in slack by Bonnie
+# adapted from code shared in slack by Bonnie Auger
 # https://nyu-tech-2335.slack.com/archives/C5WPFSB52/p1657672686150239
 
 if user_choice == computer_choice:
@@ -66,6 +61,6 @@ elif user_choice == "scissors":
 
 # DISPLAY RESULTS
 print("---------------------------------")
-print("Thanks for playing the game. Please play again!")
+print("Thanks for playing the game. Please play again =)")
 #
 #--------------------------------
